@@ -1,0 +1,15 @@
+F:\VSprojects\ThingFormat\ThingFormat\ThingFormat\bin\Debug\net8.0\ThingFormat.exe
+F:\VSprojects\ThingFormat\ThingFormat\ThingFormat\bin\Debug\net8.0\ThingFormat.deps.json
+F:\VSprojects\ThingFormat\ThingFormat\ThingFormat\bin\Debug\net8.0\ThingFormat.runtimeconfig.json
+F:\VSprojects\ThingFormat\ThingFormat\ThingFormat\bin\Debug\net8.0\ThingFormat.dll
+F:\VSprojects\ThingFormat\ThingFormat\ThingFormat\bin\Debug\net8.0\ThingFormat.pdb
+F:\VSprojects\ThingFormat\ThingFormat\ThingFormat\obj\Debug\net8.0\ThingFormat.GeneratedMSBuildEditorConfig.editorconfig
+F:\VSprojects\ThingFormat\ThingFormat\ThingFormat\obj\Debug\net8.0\ThingFormat.AssemblyInfoInputs.cache
+F:\VSprojects\ThingFormat\ThingFormat\ThingFormat\obj\Debug\net8.0\ThingFormat.AssemblyInfo.cs
+F:\VSprojects\ThingFormat\ThingFormat\ThingFormat\obj\Debug\net8.0\ThingFormat.csproj.CoreCompileInputs.cache
+F:\VSprojects\ThingFormat\ThingFormat\ThingFormat\obj\Debug\net8.0\ThingFormat.sourcelink.json
+F:\VSprojects\ThingFormat\ThingFormat\ThingFormat\obj\Debug\net8.0\ThingFormat.dll
+F:\VSprojects\ThingFormat\ThingFormat\ThingFormat\obj\Debug\net8.0\refint\ThingFormat.dll
+F:\VSprojects\ThingFormat\ThingFormat\ThingFormat\obj\Debug\net8.0\ThingFormat.pdb
+F:\VSprojects\ThingFormat\ThingFormat\ThingFormat\obj\Debug\net8.0\ThingFormat.genruntimeconfig.cache
+F:\VSprojects\ThingFormat\ThingFormat\ThingFormat\obj\Debug\net8.0\ref\ThingFormat.dll
