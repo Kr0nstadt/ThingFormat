@@ -1,17 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\VSprojects\\ThingFormat\\ThingFormat\\",
+  "WorkspaceRootPath": "C:\\Users\\ex9\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ThingFormat\\ThingFormat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8542CC21-94C2-4603-8B24-33C41E41B391}|ThingFormat\\ThingFormat.csproj|f:\\vsprojects\\thingformat\\thingformat\\thingformat\\fileinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8542CC21-94C2-4603-8B24-33C41E41B391}|ThingFormat\\ThingFormat.csproj|c:\\users\\ex9\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\thingformat\\thingformat\\thingformat\\fileinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8542CC21-94C2-4603-8B24-33C41E41B391}|ThingFormat\\ThingFormat.csproj|solutionrelative:thingformat\\fileinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8542CC21-94C2-4603-8B24-33C41E41B391}|ThingFormat\\ThingFormat.csproj|f:\\vsprojects\\thingformat\\thingformat\\thingformat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8542CC21-94C2-4603-8B24-33C41E41B391}|ThingFormat\\ThingFormat.csproj|c:\\users\\ex9\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\thingformat\\thingformat\\thingformat\\properties\\combinationofproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8542CC21-94C2-4603-8B24-33C41E41B391}|ThingFormat\\ThingFormat.csproj|solutionrelative:thingformat\\properties\\combinationofproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8542CC21-94C2-4603-8B24-33C41E41B391}|ThingFormat\\ThingFormat.csproj|c:\\users\\ex9\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\thingformat\\thingformat\\thingformat\\properties\\system.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8542CC21-94C2-4603-8B24-33C41E41B391}|ThingFormat\\ThingFormat.csproj|solutionrelative:thingformat\\properties\\system.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8542CC21-94C2-4603-8B24-33C41E41B391}|ThingFormat\\ThingFormat.csproj|c:\\users\\ex9\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\thingformat\\thingformat\\thingformat\\properties\\properties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8542CC21-94C2-4603-8B24-33C41E41B391}|ThingFormat\\ThingFormat.csproj|solutionrelative:thingformat\\properties\\properties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8542CC21-94C2-4603-8B24-33C41E41B391}|ThingFormat\\ThingFormat.csproj|c:\\users\\ex9\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\thingformat\\thingformat\\thingformat\\diagram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8542CC21-94C2-4603-8B24-33C41E41B391}|ThingFormat\\ThingFormat.csproj|solutionrelative:thingformat\\diagram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8542CC21-94C2-4603-8B24-33C41E41B391}|ThingFormat\\ThingFormat.csproj|c:\\users\\ex9\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\thingformat\\thingformat\\thingformat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8542CC21-94C2-4603-8B24-33C41E41B391}|ThingFormat\\ThingFormat.csproj|solutionrelative:thingformat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8542CC21-94C2-4603-8B24-33C41E41B391}|ThingFormat\\ThingFormat.csproj|f:\\vsprojects\\thingformat\\thingformat\\thingformat\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{8542CC21-94C2-4603-8B24-33C41E41B391}|ThingFormat\\ThingFormat.csproj|c:\\users\\ex9\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\thingformat\\thingformat\\thingformat\\properties\\presentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8542CC21-94C2-4603-8B24-33C41E41B391}|ThingFormat\\ThingFormat.csproj|solutionrelative:thingformat\\properties\\presentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8542CC21-94C2-4603-8B24-33C41E41B391}|ThingFormat\\ThingFormat.csproj|c:\\users\\ex9\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\thingformat\\thingformat\\thingformat\\properties\\analyst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8542CC21-94C2-4603-8B24-33C41E41B391}|ThingFormat\\ThingFormat.csproj|solutionrelative:thingformat\\properties\\analyst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8542CC21-94C2-4603-8B24-33C41E41B391}|ThingFormat\\ThingFormat.csproj|c:\\users\\ex9\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\thingformat\\thingformat\\thingformat\\properties\\confidence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8542CC21-94C2-4603-8B24-33C41E41B391}|ThingFormat\\ThingFormat.csproj|solutionrelative:thingformat\\properties\\confidence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8542CC21-94C2-4603-8B24-33C41E41B391}|ThingFormat\\ThingFormat.csproj|c:\\users\\ex9\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\thingformat\\thingformat\\thingformat\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{8542CC21-94C2-4603-8B24-33C41E41B391}|ThingFormat\\ThingFormat.csproj|solutionrelative:thingformat\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -22,46 +50,152 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CombinationOfProperties.cs",
+              "DocumentMoniker": "C:\\Users\\ex9\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ThingFormat\\ThingFormat\\ThingFormat\\Properties\\CombinationOfProperties.cs",
+              "RelativeDocumentMoniker": "ThingFormat\\Properties\\CombinationOfProperties.cs",
+              "ToolTip": "C:\\Users\\ex9\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ThingFormat\\ThingFormat\\ThingFormat\\Properties\\CombinationOfProperties.cs",
+              "RelativeToolTip": "ThingFormat\\Properties\\CombinationOfProperties.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T17:35:41.42Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Diagram.cs",
+              "DocumentMoniker": "C:\\Users\\ex9\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ThingFormat\\ThingFormat\\ThingFormat\\Diagram.cs",
+              "RelativeDocumentMoniker": "ThingFormat\\Diagram.cs",
+              "ToolTip": "C:\\Users\\ex9\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ThingFormat\\ThingFormat\\ThingFormat\\Diagram.cs",
+              "RelativeToolTip": "ThingFormat\\Diagram.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T17:46:23.947Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Presentation.cs",
+              "DocumentMoniker": "C:\\Users\\ex9\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ThingFormat\\ThingFormat\\ThingFormat\\Properties\\Presentation.cs",
+              "RelativeDocumentMoniker": "ThingFormat\\Properties\\Presentation.cs",
+              "ToolTip": "C:\\Users\\ex9\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ThingFormat\\ThingFormat\\ThingFormat\\Properties\\Presentation.cs",
+              "RelativeToolTip": "ThingFormat\\Properties\\Presentation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T17:35:00.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "System.cs",
+              "DocumentMoniker": "C:\\Users\\ex9\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ThingFormat\\ThingFormat\\ThingFormat\\Properties\\System.cs",
+              "RelativeDocumentMoniker": "ThingFormat\\Properties\\System.cs",
+              "ToolTip": "C:\\Users\\ex9\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ThingFormat\\ThingFormat\\ThingFormat\\Properties\\System.cs",
+              "RelativeToolTip": "ThingFormat\\Properties\\System.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T17:34:52.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Confidence.cs",
+              "DocumentMoniker": "C:\\Users\\ex9\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ThingFormat\\ThingFormat\\ThingFormat\\Properties\\Confidence.cs",
+              "RelativeDocumentMoniker": "ThingFormat\\Properties\\Confidence.cs",
+              "ToolTip": "C:\\Users\\ex9\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ThingFormat\\ThingFormat\\ThingFormat\\Properties\\Confidence.cs",
+              "RelativeToolTip": "ThingFormat\\Properties\\Confidence.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T17:34:42.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Analyst.cs",
+              "DocumentMoniker": "C:\\Users\\ex9\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ThingFormat\\ThingFormat\\ThingFormat\\Properties\\Analyst.cs",
+              "RelativeDocumentMoniker": "ThingFormat\\Properties\\Analyst.cs",
+              "ToolTip": "C:\\Users\\ex9\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ThingFormat\\ThingFormat\\ThingFormat\\Properties\\Analyst.cs",
+              "RelativeToolTip": "ThingFormat\\Properties\\Analyst.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T17:34:09.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Properties.cs",
+              "DocumentMoniker": "C:\\Users\\ex9\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ThingFormat\\ThingFormat\\ThingFormat\\Properties\\Properties.cs",
+              "RelativeDocumentMoniker": "ThingFormat\\Properties\\Properties.cs",
+              "ToolTip": "C:\\Users\\ex9\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ThingFormat\\ThingFormat\\ThingFormat\\Properties\\Properties.cs",
+              "RelativeToolTip": "ThingFormat\\Properties\\Properties.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T17:08:20.359Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FileInput.cs",
-              "DocumentMoniker": "F:\\VSprojects\\ThingFormat\\ThingFormat\\ThingFormat\\FileInput.cs",
+              "DocumentMoniker": "C:\\Users\\ex9\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ThingFormat\\ThingFormat\\ThingFormat\\FileInput.cs",
               "RelativeDocumentMoniker": "ThingFormat\\FileInput.cs",
-              "ToolTip": "F:\\VSprojects\\ThingFormat\\ThingFormat\\ThingFormat\\FileInput.cs",
+              "ToolTip": "C:\\Users\\ex9\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ThingFormat\\ThingFormat\\ThingFormat\\FileInput.cs",
               "RelativeToolTip": "ThingFormat\\FileInput.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAcwCQAAAARAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T12:21:48.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "input.txt",
-              "DocumentMoniker": "F:\\VSprojects\\ThingFormat\\ThingFormat\\ThingFormat\\input.txt",
+              "DocumentMoniker": "C:\\Users\\ex9\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ThingFormat\\ThingFormat\\ThingFormat\\input.txt",
               "RelativeDocumentMoniker": "ThingFormat\\input.txt",
-              "ToolTip": "F:\\VSprojects\\ThingFormat\\ThingFormat\\ThingFormat\\input.txt",
+              "ToolTip": "C:\\Users\\ex9\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ThingFormat\\ThingFormat\\ThingFormat\\input.txt",
               "RelativeToolTip": "ThingFormat\\input.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-09-27T12:11:07.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T12:11:07.264Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "F:\\VSprojects\\ThingFormat\\ThingFormat\\ThingFormat\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\ex9\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ThingFormat\\ThingFormat\\ThingFormat\\Program.cs",
               "RelativeDocumentMoniker": "ThingFormat\\Program.cs",
-              "ToolTip": "F:\\VSprojects\\ThingFormat\\ThingFormat\\ThingFormat\\Program.cs",
+              "ToolTip": "C:\\Users\\ex9\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ThingFormat\\ThingFormat\\ThingFormat\\Program.cs",
               "RelativeToolTip": "ThingFormat\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-26T13:38:31.931Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             }
           ]
         }

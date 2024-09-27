@@ -13,3 +13,11 @@ F:\VSprojects\ThingFormat\ThingFormat\ThingFormat\obj\Debug\net8.0\refint\ThingF
 F:\VSprojects\ThingFormat\ThingFormat\ThingFormat\obj\Debug\net8.0\ThingFormat.pdb
 F:\VSprojects\ThingFormat\ThingFormat\ThingFormat\obj\Debug\net8.0\ThingFormat.genruntimeconfig.cache
 F:\VSprojects\ThingFormat\ThingFormat\ThingFormat\obj\Debug\net8.0\ref\ThingFormat.dll
+C:\Users\ex9\OneDrive\Рабочий стол\ThingFormat\ThingFormat\ThingFormat\obj\Debug\net8.0\ThingFormat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ex9\OneDrive\Рабочий стол\ThingFormat\ThingFormat\ThingFormat\obj\Debug\net8.0\ThingFormat.AssemblyInfoInputs.cache
+C:\Users\ex9\OneDrive\Рабочий стол\ThingFormat\ThingFormat\ThingFormat\obj\Debug\net8.0\ThingFormat.AssemblyInfo.cs
+C:\Users\ex9\OneDrive\Рабочий стол\ThingFormat\ThingFormat\ThingFormat\obj\Debug\net8.0\ThingFormat.csproj.CoreCompileInputs.cache
+C:\Users\ex9\OneDrive\Рабочий стол\ThingFormat\ThingFormat\ThingFormat\obj\Debug\net8.0\ThingFormat.sourcelink.json
+C:\Users\ex9\OneDrive\Рабочий стол\ThingFormat\ThingFormat\ThingFormat\obj\Debug\net8.0\ThingFormat.dll
+C:\Users\ex9\OneDrive\Рабочий стол\ThingFormat\ThingFormat\ThingFormat\obj\Debug\net8.0\refint\ThingFormat.dll
+C:\Users\ex9\OneDrive\Рабочий стол\ThingFormat\ThingFormat\ThingFormat\obj\Debug\net8.0\ThingFormat.pdb
