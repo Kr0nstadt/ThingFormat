@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ThingFormat
 {
-    internal class FileInput
+    public class FileInput
     {
         public int GetAnalyst() => _analyst;
         public int GetSystem() => _system;
@@ -52,7 +52,5 @@ namespace ThingFormat
         private int _system;
         private int _confidence;
         private int _presentation;
-
-
     }
 }
