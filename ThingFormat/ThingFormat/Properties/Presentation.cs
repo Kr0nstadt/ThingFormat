@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ThingFormat.Properties
+﻿namespace ThingFormat.Properties
 {
     public class Presentation : Properties
     {
+        public Presentation() : base() { }
         public Presentation(int point) : base(point) { }
     }
 }

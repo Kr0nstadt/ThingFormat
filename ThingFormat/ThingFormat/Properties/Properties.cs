@@ -1,24 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ThingFormat.Properties
+﻿namespace ThingFormat.Properties
 {
     public class Properties
     {
-        public int Point {  get; }
+        public int Point => _point;
         public void AddPoints(int points) => _point += points;
 
         public Properties()
         {
-            Point = 0;
+            _point = 0;
         }
 
         public Properties(int point)
         {
-            Point = point;
+            _point = point;
         }
 
         private int _point; 

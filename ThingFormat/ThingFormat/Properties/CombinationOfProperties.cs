@@ -8,6 +8,7 @@
             _confidence = confidence;
             _system = system;
             _presentation = presentation;
+            _diagram = new Diagram(_analyst, _confidence, _system, _presentation);
         }
 
         public CombinationOfProperties(FileInput fileInput)
@@ -15,7 +16,8 @@
             _analyst = new Analyst(fileInput.GetAnalyst());
             _confidence = new Confidence(fileInput.GetConfidence()); ;
             _system = new System(fileInput.GetSystem()); ;
-            _presentation = new Presentation(fileInput.GetPresentation()); ;
+            _presentation = new Presentation(fileInput.GetPresentation());
+            _diagram = new Diagram(_analyst, _confidence, _system, _presentation);
         }
 
         /// <summary>
