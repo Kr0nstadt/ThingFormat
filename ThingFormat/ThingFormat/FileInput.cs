@@ -3,15 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ThingFormat.Properties;
 
 namespace ThingFormat
 {
     public class FileInput
     {
-        public int GetAnalyst() => _analyst;
-        public int GetSystem() => _system;
-        public int GetConfidence() => _confidence;
-        public int GetPresentation() => _presentation;
+        public Analyst Analyst => _analyst;
+        public Properties.System System=> _system;
+        public Confidence Confidence => _confidence;
+        public Presentation Presentation => _presentation;
 
         public FileInput()
         {
@@ -31,26 +32,36 @@ namespace ThingFormat
             {
                 for (int i = 0; i < analystParams.Length; i++)
                 {
-                    analystParams[i] = Convert.ToInt16(readFile.ReadLine());
+                    analystParams[i] = Convert.ToInt32(readFile.ReadLine());
+                   
                 }
                 for (int j = 0; j < systemParams.Length; j++)
                 {
-                    systemParams[j] = Convert.ToInt16(readFile.ReadLine());
+                    systemParams[j] = Convert.ToInt32(readFile.ReadLine());
                 }
                 for (int p = 0; p < presentationParams.Length; p++)
                 {
-                    presentationParams[p] = Convert.ToInt16(readFile.ReadLine());
+                    presentationParams[p] = Convert.ToInt32(readFile.ReadLine());
                 }
                 for (int c = 0; c < confidenceParam.Length; c++)
                 {
-                    confidenceParam[c] = Convert.ToInt16(readFile.ReadLine());
+                    confidenceParam[c] = Convert.ToInt32(readFile.ReadLine());
                 }
+                int analystSum = analystParams.Sum();
+                int systemSum = systemParams.Sum();
+                int presentationSum = presentationParams.Sum();
+                int confidenceSum = confidenceParam.Sum();
+
+                _analyst = new Analyst(analystSum);
+                _system = new Properties.System(systemSum); 
+                _confidence = new Confidence(confidenceSum); 
+                _presentation = new Presentation(presentationSum); 
             }
          }
 
-        private int _analyst;
-        private int _system;
-        private int _confidence;
-        private int _presentation;
+        private Analyst _analyst;
+        private Properties.System _system;
+        private Confidence _confidence;
+        private Presentation _presentation;
     }
 }
