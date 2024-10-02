@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ThingFormat.ThingFormats
+﻿namespace ThingFormat.ThingFormats
 {
-    internal class ThingFormat
+    /// <summary>
+    /// Формат мышления
+    /// </summary>
+    public class ThingFormat
     {
         private Diagram _diagram;
-        private TextModel _textModel;
+        //private TextModel _textModel;
 
         public ThingFormat(Diagram diagram)
         {

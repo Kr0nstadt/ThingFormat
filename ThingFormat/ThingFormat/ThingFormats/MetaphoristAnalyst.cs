@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ThingFormat.ThingFormats
+﻿namespace ThingFormat.ThingFormats
 {
-    internal class MetaphoristAnalyst : ThingFormat
+    /// <summary>
+    /// Метафорный аналитик (МА)
+    /// </summary>
+    public class MetaphoristAnalyst : ThingFormat
     {
         public MetaphoristAnalyst(Diagram diagram) : base(diagram)
         {

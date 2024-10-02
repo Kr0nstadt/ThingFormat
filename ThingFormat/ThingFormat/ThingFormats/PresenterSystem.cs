@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ThingFormat.ThingFormats
+﻿namespace ThingFormat.ThingFormats
 {
-    internal class PresenterSystem : ThingFormat
+    /// <summary>
+    /// Презентационный системщик (ПС)
+    /// </summary>
+    public class PresenterSystem : ThingFormat
     {
         public PresenterSystem(Diagram diagram) : base(diagram)
         {
