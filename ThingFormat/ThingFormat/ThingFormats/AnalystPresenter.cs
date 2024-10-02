@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ThingFormat.ThingFormats
+﻿namespace ThingFormat.ThingFormats
 {
-    internal class AnalystPresenter : ThingFormat
+    /// <summary>
+    /// Аналитический презентатор (АП)
+    /// </summary>
+    public class AnalystPresenter : ThingFormat
     {
         public AnalystPresenter(Diagram diagram) : base(diagram)
         {
