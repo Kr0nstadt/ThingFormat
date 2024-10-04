@@ -22,20 +22,17 @@ namespace ThingFormat.Properties
             _diagram = new Diagram(_analyst, _confidence, _system, _presentation);
         }
 
-        /// <summary>
-        /// Группирует полученные данные и выводит формат машления
-        /// </summary>
-        public ThingFormats.ThingFormat ThingFormatConvector() 
+        public ThingFormats.ThingFormat ThingFormatConvector()
         {
             ThingFormats.ThingFormat resFormat = null;
 
-            int fmPoints = 
+            int fmPoints =
                 Math.Abs(
-                    Math.Max(Math.Abs(_system.Point), Math.Abs(_analyst.Point)) - 
-                    Math.Min(Math.Abs(_confidence.Point), Math.Abs(_analyst.Point))
+                    Math.Max(Math.Abs(_system.Point), Math.Abs(_analyst.Point))) -
+                    Math.Abs(Math.Min(Math.Abs(_system.Point), Math.Abs(_analyst.Point))
                 );
 
-            
+
             #region ЕСЛИ П > 0 и С > 0 и А > 0
             bool isPSAGreaterZero = _presentation.Point >= 0 && _system.Point > 0 && _analyst.Point > 0;
             //ФМ = (20 ; +15) - СП - тут П => 0
