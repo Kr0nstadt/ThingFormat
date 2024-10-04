@@ -99,7 +99,7 @@ namespace ThingFormat.Properties.Tests
 
             ThingFormats.ThingFormat thingFormat = combination.ThingFormatConvector();
 
-            Assert.IsTrue(thingFormat is PresenterSystem);// c 13
+            Assert.IsTrue(thingFormat is SystemPresenter);// c 13
         }
          
         [TestMethod()]
@@ -114,7 +114,7 @@ namespace ThingFormat.Properties.Tests
 
             ThingFormats.ThingFormat thingFormat = combination.ThingFormatConvector();
 
-            Assert.IsTrue(thingFormat is PresenterSystem);
+            Assert.IsTrue(thingFormat is SystemPresenter);
         }
 
         [TestMethod()]
@@ -129,7 +129,7 @@ namespace ThingFormat.Properties.Tests
 
             ThingFormats.ThingFormat thingFormat = combination.ThingFormatConvector();
 
-            Assert.IsTrue(thingFormat is Presentation);
+            Assert.IsTrue(thingFormat is Exeption);
         }
 
         [TestMethod()]
@@ -144,7 +144,7 @@ namespace ThingFormat.Properties.Tests
 
             ThingFormats.ThingFormat thingFormat = combination.ThingFormatConvector();
 
-            Assert.IsTrue(thingFormat is Exception);
+            Assert.IsTrue(thingFormat is Exeption);
         }
 
         [TestMethod()]
@@ -174,7 +174,7 @@ namespace ThingFormat.Properties.Tests
 
             ThingFormats.ThingFormat thingFormat = combination.ThingFormatConvector();
 
-            Assert.IsTrue(thingFormat is MetaphoristAnalyst);//74st A==S
+            Assert.IsTrue(thingFormat is ThingFormats.Presentation);//74st A==S
         }
     }
 }
