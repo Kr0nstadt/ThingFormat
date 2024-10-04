@@ -84,7 +84,7 @@ namespace ThingFormat.Properties.Tests
 
             ThingFormats.ThingFormat thingFormat = combination.ThingFormatConvector();
 
-            Assert.IsTrue(thingFormat is SystemPresenter);//Четко 14
+            Assert.IsTrue(thingFormat is SystemPresenter);//аналитика отр особый случай
         }
 
         [TestMethod()]
@@ -99,7 +99,82 @@ namespace ThingFormat.Properties.Tests
 
             ThingFormats.ThingFormat thingFormat = combination.ThingFormatConvector();
 
-            Assert.IsTrue(thingFormat is PresenterSystem);// c 15
+            Assert.IsTrue(thingFormat is PresenterSystem);// c 13
+        }
+         
+        [TestMethod()]
+        public void ThingFormatConvectorTestPS2()
+        {
+            Analyst analyst = new Analyst(15);
+            Confidence confidence = new Confidence(4);
+            Presentation presentation = new Presentation(2);
+            System system = new System(20);
+
+            CombinationOfProperties combination = new CombinationOfProperties(analyst, confidence, system, presentation);
+
+            ThingFormats.ThingFormat thingFormat = combination.ThingFormatConvector();
+
+            Assert.IsTrue(thingFormat is PresenterSystem);
+        }
+
+        [TestMethod()]
+        public void ThingFormatConvectorTestP1()
+        {
+            Analyst analyst = new Analyst(0);
+            Confidence confidence = new Confidence(4);
+            Presentation presentation = new Presentation(12);
+            System system = new System(0);
+
+            CombinationOfProperties combination = new CombinationOfProperties(analyst, confidence, system, presentation);
+
+            ThingFormats.ThingFormat thingFormat = combination.ThingFormatConvector();
+
+            Assert.IsTrue(thingFormat is Presentation);
+        }
+
+        [TestMethod()]
+        public void ThingFormatConvectorTestExp()
+        {
+            Analyst analyst = new Analyst(0);
+            Confidence confidence = new Confidence(4);
+            Presentation presentation = new Presentation(2);
+            System system = new System(0);
+
+            CombinationOfProperties combination = new CombinationOfProperties(analyst, confidence, system, presentation);
+
+            ThingFormats.ThingFormat thingFormat = combination.ThingFormatConvector();
+
+            Assert.IsTrue(thingFormat is Exception);
+        }
+
+        [TestMethod()]
+        public void ThingFormatConvectorTestMS()
+        {
+            Analyst analyst = new Analyst(2);
+            Confidence confidence = new Confidence(4);
+            Presentation presentation = new Presentation(0);
+            System system = new System(13);
+
+            CombinationOfProperties combination = new CombinationOfProperties(analyst, confidence, system, presentation);
+
+            ThingFormats.ThingFormat thingFormat = combination.ThingFormatConvector();
+
+            Assert.IsTrue(thingFormat is MetaphoristSystem);
+        }
+
+        [TestMethod()]
+        public void ThingFormatConvectorTestMA1()
+        {
+            Analyst analyst = new Analyst(1);
+            Confidence confidence = new Confidence(4);
+            Presentation presentation = new Presentation(-10);
+            System system = new System(1);
+
+            CombinationOfProperties combination = new CombinationOfProperties(analyst, confidence, system, presentation);
+
+            ThingFormats.ThingFormat thingFormat = combination.ThingFormatConvector();
+
+            Assert.IsTrue(thingFormat is MetaphoristAnalyst);//74st A==S
         }
     }
 }

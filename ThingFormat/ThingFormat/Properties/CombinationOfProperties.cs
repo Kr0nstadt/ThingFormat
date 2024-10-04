@@ -37,12 +37,12 @@ namespace ThingFormat.Properties
             bool isPSAGreaterZero = _presentation.Point >= 0 && _system.Point > 0 && _analyst.Point > 0;
             //ФМ = (20 ; +15) - СП - тут П => 0
             //ЕСЛИ П>0 и С > 0 и А < =0  - CП
-            bool isSP = (isPSAGreaterZero && fmPoints < 20 && fmPoints > 15) ||
+            bool isSP = (isPSAGreaterZero && fmPoints < 20 && fmPoints >= 15) ||
                 (_presentation.Point > 0 && _system.Point > 0 && _analyst.Point <= 0);
             //ФМ = (+14 ; +5] - ПC
             bool isPS = isPSAGreaterZero && fmPoints < 14 && fmPoints >= 5;
             //ФМ =(+4 ; -5] - П
-            bool isP = isPSAGreaterZero && fmPoints < 4 && fmPoints >= -5;
+            bool isP = isPSAGreaterZero && fmPoints <= 4 && fmPoints >= -5;
             //ФМ = (-6; -15) - ПА
             bool isPA = isPSAGreaterZero && fmPoints < -6 && fmPoints > -15;
             //ФМ = (-16; -20) - АП - тут П => 0
@@ -53,7 +53,7 @@ namespace ThingFormat.Properties
 
             //ЕСЛИ П>0 и С=0 и А=0 - NA
             //ЕСЛИ П<0 и ЕСЛИ С=А=0 - NA
-            bool isNA = _system.Point == 0 && _analyst.Point == 0;
+            bool isNA = (_system.Point == 0 && _analyst.Point == 0);
 
             #region ЕСЛИ П<0
             bool isPLessZero = _presentation.Point < 0;
@@ -66,7 +66,7 @@ namespace ThingFormat.Properties
             #region ФМ - 0
             bool isFmEqualZero = fmPoints == 0;
             //Если ФМ = 0 и при этом 0 <= П <= 10 - “Недобросовестно”
-            bool isUnscrupulous = isFmEqualZero && _presentation.Point >= 0 && _presentation.Point <= 10;
+            bool isUnscrupulous = isFmEqualZero && _presentation.Point >= 0 && _presentation.Point <= 10;//это нигде не юзается
 
             #region Если ФМ = 0 и П < 0
             bool isFmEqZeroAndPLessZero = isFmEqualZero && _presentation.Point < 0;
@@ -82,7 +82,7 @@ namespace ThingFormat.Properties
 
 
             #region определение ФМ
-
+            Exeption exeption = isNA ? new(_diagram) : null;
             PresenterAnalyst presenterAnalyst = isPA ? new(_diagram) : null;
             MetaphoristSystem metaphoristSystem = isMS ? new(_diagram) : null;
             AnalystPresenter analystPresenter = isAP ? new(_diagram) : null;
@@ -90,9 +90,10 @@ namespace ThingFormat.Properties
             SystemPresenter systemPresenter = isSP ? new(_diagram) : null;
             MetaphoristAnalyst metaphoristAnalyst = isMA ? new(_diagram) : null;
             PresenterSystem presentationSystem = isPS ? new(_diagram) : null;
-            Exeption exeption = isNA ? new(_diagram) : null;
+            
 
             List<ThingFormats.ThingFormat> thingFormatsList = new List<ThingFormats.ThingFormat>(8);
+            thingFormatsList.Add(exeption);
             thingFormatsList.Add(presenterAnalyst);
             thingFormatsList.Add(metaphoristSystem);
             thingFormatsList.Add(analystPresenter);
@@ -100,7 +101,7 @@ namespace ThingFormat.Properties
             thingFormatsList.Add(systemPresenter);
             thingFormatsList.Add(metaphoristAnalyst);
             thingFormatsList.Add(presentationSystem);
-            thingFormatsList.Add(exeption);
+            
 
             int countOfNotNullFormats = 0;
 
